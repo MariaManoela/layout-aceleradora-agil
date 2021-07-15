@@ -29,10 +29,16 @@ textarea{
     resize: none;
     border: 1px solid #CCD96C;
     border-radius: 15px;
+    outline: none;
 }
 
 button{
     border: 1px solid #CCD96C;
     border-radius: 15px;
     color: #705148;
+}
+
+button:hover{
+    background: #F2DBAE;
+    transition: .3s;
 }

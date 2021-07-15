@@ -1,11 +1,10 @@
 body{
-    margin: 0;
+    margin: auto;
     padding: 0;
     border: none;
     font-size: 15px;
     width: 750px;
     display: flex;
-    height: 50vh;
     background-color: #F2F2F2;
     font-family: 'Mulish', sans-serif;
 }
@@ -55,14 +54,13 @@ body{
     flex-direction: row;
     text-decoration: none;
     list-style: none;
+    justify-content: center;
 }
 
 .top-nav a{
-    padding: 15px 60px;
-    text-align: center;
+    padding: 15px 50px;
     text-decoration: none;
     font-size: 1.1rem;
-    font-weight: 500;
     color:  #E8FBFF;
 }
 
@@ -86,12 +84,12 @@ body{
     flex-direction: column;
     text-decoration: none;
     list-style: none;
+    margin: auto;
 }
 
 .left-nav a{
-    padding: 30px 15px;
+    padding: 30px 1px;
     display: block;
-    text-align: left;
     text-decoration: none;
     font-size: 1.1rem;
     color: #A65B1B;

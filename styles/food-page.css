@@ -1,0 +1,18 @@
+body{
+    background-color: #F2F2F2;
+    font-family: 'Mulish', sans-serif;
+}
+
+.main{
+    margin: 0;
+    padding: 20px 40px;
+}
+
+.meals {
+    margin: auto;
+    justify-content: center;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
