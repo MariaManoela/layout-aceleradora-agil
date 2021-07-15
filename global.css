@@ -1,0 +1,129 @@
+body, ul, li{
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+    font-size: 15px;
+    width: 750px;
+    display: flex;
+    height: 50vh;
+}
+
+html{ 
+    --background: #F2F2F2;
+    --header: #C0D99C;
+    --menu: #81A649;
+    --columns: #B4D966;
+    --font: #F2F2F2;
+    font-family: 'Zen Loop', cursive;
+}
+
+.interface{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas:
+      "header   header  header"
+      "nav      nav     nav"
+      "left-sb  main    right-sb"
+      "footer   footer  footer";
+}
+
+.header{
+    background: var(--header);
+    width: 750px;
+    height: 60px;
+    grid-area: header;
+    display: flex;
+}
+
+/* .header img{
+    padding: 7px;
+}
+.header h1{
+    font-weight: 500;
+    vertical-align: middle;
+    
+} */
+
+.title{
+    height: 70px;
+    /* margin: 5px auto; */
+    display: flex;
+}
+
+.title img{
+    padding: 10px;
+}
+
+.title h1{
+    text-align: center;
+    font-weight: 500;
+}
+
+.top-nav{
+    background: var(--menu);
+    width: 750px;
+    height: 40px;
+    grid-area: nav;
+}
+
+.top-nav a{
+    padding: 10px 60px;
+    /* display: block; */
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--font);
+    width: 100%;  /* gambiarra? */
+}
+
+.top-nav a:hover{
+    background-color: #D9483B;
+    color: #590202;
+    transition: .5s;
+    width: 100%;  /* gambiarra? */
+}
+
+.left-nav{
+    background: var(--columns);
+    width: 150px;
+    grid-area: left-sb;
+}
+
+.left-nav li{
+    display: block;
+}
+
+.left-nav a{
+    padding: 30px 15px;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: var(--background);
+}
+
+.left-nav a:hover{
+    background-color: #F2C979;
+    color: #BF7E04;
+    transition: .5s;
+}
+
+.main{
+    background: var(--background);
+}
+
+.right-sidebar{
+    background: var(--columns);
+    width: 150px;
+    grid-area: right-sb;
+}
+
+.footer{
+    background: var(--header);
+    width: 750px;
+    height: 50px;
+    grid-area: footer;
+}

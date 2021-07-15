@@ -1,0 +1,20 @@
+div#layout{
+    display: grid;
+    grid-template-columns: 15rem, 45rem, 15rem;
+}
+
+.top-menu{
+    background-color: var(--menu);
+    list-style: none;
+    float: left;
+
+}
+
+.top-menu li{
+    position: relative;
+    float: left;
+}
+
+.top-menu ul li{
+    display: inline;
+}
