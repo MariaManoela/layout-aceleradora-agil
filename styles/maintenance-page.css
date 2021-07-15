@@ -1,0 +1,8 @@
+body{
+    background-color: var(--background);
+    font-family: 'Mulish', sans-serif;
+}
+
+.main{
+    margin: 130px;
+}
