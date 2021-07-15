@@ -45,6 +45,7 @@ html{
 
 .title h1{
     font-weight: 500;
+    color: #274B59;
 }
 
 .top-nav{
@@ -106,28 +107,8 @@ html{
 
 .main{
     background: var(--background);
-}
-
-form{
-    margin: 0;
-    width: 200px;
-    padding: 100px;
-    border: 1px solid #C6D4AE;
-    border-radius: 15px;
-}
-
-form div + div{
-    margin-top: 15px;
-}
-
-label{
-    display: inline-block;
-    width: 90px;
-    text-align: left;
-}
-
-input{
-    outline: none;
+    text-align: center;
+    color: #705148;
 }
 
 .right-sidebar{

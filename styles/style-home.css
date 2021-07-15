@@ -1,0 +1,38 @@
+h2{
+    margin-top: 40px;
+}
+
+form{
+    margin: 50px 0px 50px 25px;
+    width: 350px;
+    padding: 20px;
+    border: 1px solid #C6D4AE;
+    border-radius: 15px;
+}
+
+form div + div{
+    margin-top: 15px;
+}
+
+label{
+    display: inline-block;
+    width: 90px;
+}
+
+input{
+    outline: none;
+    border: 1px solid #CCD96C;
+    border-radius: 15px;
+}
+
+textarea{
+    resize: none;
+    border: 1px solid #CCD96C;
+    border-radius: 15px;
+}
+
+button{
+    border: 1px solid #CCD96C;
+    border-radius: 15px;
+    color: #705148;
+}
