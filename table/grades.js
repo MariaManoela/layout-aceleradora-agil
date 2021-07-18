@@ -48,8 +48,3 @@ function pass(final_grade){
         pass = false;
     }
 }
-
-
-//var table_js = document.querySelector(".table")
-
-//var source
